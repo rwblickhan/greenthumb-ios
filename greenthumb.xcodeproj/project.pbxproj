@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82AA480B32FDBD2CE8641EAA /* AddPlantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82AA412F81988FD1582DD776 /* AddPlantViewController.swift */; };
 		CDF9B8B11F4D1EA300845BE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9B8B01F4D1EA300845BE3 /* AppDelegate.swift */; };
-		CDF9B8B31F4D1EA300845BE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9B8B21F4D1EA300845BE3 /* ViewController.swift */; };
+		CDF9B8B31F4D1EA300845BE3 /* PlantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9B8B21F4D1EA300845BE3 /* PlantListViewController.swift */; };
 		CDF9B8B81F4D1EA300845BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF9B8B71F4D1EA300845BE3 /* Assets.xcassets */; };
 		CDF9B8C61F4D1EA300845BE3 /* greenthumbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9B8C51F4D1EA300845BE3 /* greenthumbTests.swift */; };
 		CDF9B8D11F4D1EA300845BE3 /* greenthumbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9B8D01F4D1EA300845BE3 /* greenthumbUITests.swift */; };
@@ -32,9 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82AA412F81988FD1582DD776 /* AddPlantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlantViewController.swift; sourceTree = "<group>"; };
 		CDF9B8AD1F4D1EA300845BE3 /* greenthumb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greenthumb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF9B8B01F4D1EA300845BE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDF9B8B21F4D1EA300845BE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDF9B8B21F4D1EA300845BE3 /* PlantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListViewController.swift; sourceTree = "<group>"; };
 		CDF9B8B71F4D1EA300845BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF9B8BC1F4D1EA300845BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDF9B8C11F4D1EA300845BE3 /* greenthumbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greenthumbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,9 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				CDF9B8B01F4D1EA300845BE3 /* AppDelegate.swift */,
-				CDF9B8B21F4D1EA300845BE3 /* ViewController.swift */,
+				CDF9B8B21F4D1EA300845BE3 /* PlantListViewController.swift */,
 				CDF9B8B71F4D1EA300845BE3 /* Assets.xcassets */,
 				CDF9B8BC1F4D1EA300845BE3 /* Info.plist */,
+				82AA412F81988FD1582DD776 /* AddPlantViewController.swift */,
 			);
 			path = greenthumb;
 			sourceTree = "<group>";
@@ -254,8 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF9B8B31F4D1EA300845BE3 /* ViewController.swift in Sources */,
+				CDF9B8B31F4D1EA300845BE3 /* PlantListViewController.swift in Sources */,
 				CDF9B8B11F4D1EA300845BE3 /* AppDelegate.swift in Sources */,
+				82AA480B32FDBD2CE8641EAA /* AddPlantViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
